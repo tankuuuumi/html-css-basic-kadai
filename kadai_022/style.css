@@ -14,6 +14,14 @@ body {
 
 a {
     font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(193, 234, 251);
+}
+a:hover {
+    color: rgb(245, 178, 168);
 }
 
 header {
@@ -36,7 +44,6 @@ main {
     padding: 10px 15px;
     margin: 20px 0;
     text-align: center;
-    justify-content: space-around;
 }
 
 h2 {
@@ -63,18 +70,9 @@ footer {
     background-color: rgb(244, 79, 79);
     text-align: center;
 }
-a {
-    color: rgb(255, 255, 255);
-}
-a:visited {
-    color: rgb(193, 234, 251);
-}
-a:hover {
-    color: rgb(245, 178, 168);
-}
 
 @media screen and (max-width: 768px) {
     div{
-        display: block;
+        flex-direction: column;
     }
 }
